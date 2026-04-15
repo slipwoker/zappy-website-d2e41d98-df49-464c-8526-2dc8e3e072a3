@@ -13869,6 +13869,170 @@ nav.navbar .sub-menu li a:hover { color: #b8b1a7 !important; background-color: r
 /* /Zappy custom logo size */
 
 
+@media (max-width: 768px) {
+.gallery-portfolio-section .gallery-portfolio-container {
+  padding: 0 16px;
+}
+
+.gallery-portfolio-section .gallery-portfolio-grid {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+}
+
+.gallery-portfolio-section .gallery-tile-stack {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+}
+
+.gallery-portfolio-section .gallery-tile--large-portrait,
+  .gallery-portfolio-section .gallery-tile--medium-landscape,
+  .gallery-portfolio-section .gallery-tile--small-square,
+  .gallery-portfolio-section .gallery-tile--wide-landscape,
+  .gallery-portfolio-section .gallery-tile--small-portrait,
+  .gallery-portfolio-section .gallery-tile--medium-portrait,
+  .gallery-portfolio-section .gallery-tile--small-landscape,
+  .gallery-portfolio-section .gallery-tile--medium-square {
+  grid-column: unset !important;
+  grid-row: unset !important;
+  width: 100% !important;
+}
+
+.gallery-portfolio-section .gallery-tile--large-portrait .gallery-tile-figure img {
+  aspect-ratio: 4/3 !important;
+  min-height: unset !important;
+}
+
+.gallery-portfolio-section .gallery-tile--small-portrait .gallery-tile-figure img,
+  .gallery-portfolio-section .gallery-tile--medium-portrait .gallery-tile-figure img {
+  aspect-ratio: 4/3 !important;
+}
+
+.gallery-portfolio-section .gallery-tile--wide-landscape .gallery-tile-figure img {
+  aspect-ratio: 16/9 !important;
+}
+
+.gallery-portfolio-section .gallery-tile--small-square .gallery-tile-figure img,
+  .gallery-portfolio-section .gallery-tile--medium-square .gallery-tile-figure img {
+  aspect-ratio: 4/3 !important;
+}
+
+.gallery-portfolio-section [data-zappy-zoom-wrapper] {
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 4/3 !important;
+}
+
+.gallery-portfolio-section [data-zappy-zoom-wrapper] img {
+  width: 100% !important;
+  height: 100% !important;
+  left: 0 !important;
+  top: 0 !important;
+}
+
+.gallery-portfolio-section .gallery-portfolio-cta {
+  flex-direction: column;
+  gap: 12px;
+  align-items: stretch;
+}
+
+.gallery-portfolio-section .gallery-cta-btn,
+  .gallery-portfolio-section .gallery-cta-btn-ghost {
+  text-align: center;
+  width: 100%;
+}
+}
+
+@media (max-width: 768px) {
+.gallery-portfolio-section .gallery-portfolio-grid {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+  grid-template-columns: none !important;
+  grid-template-rows: none !important;
+}
+
+.gallery-portfolio-section .gallery-tile {
+  grid-column: unset !important;
+  grid-row: unset !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.gallery-portfolio-section .gallery-tile-stack {
+  grid-column: unset !important;
+  grid-row: unset !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 16px !important;
+  width: 100% !important;
+}
+
+.gallery-portfolio-section [data-zappy-zoom-wrapper] {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 4 / 3 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.gallery-portfolio-section [data-zappy-zoom-wrapper] img {
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+.gallery-portfolio-section .gallery-tile-figure img {
+  width: 100% !important;
+  height: auto !important;
+  min-height: unset !important;
+}
+
+.gallery-portfolio-section .gallery-tile--large-portrait .gallery-tile-figure img,
+  .gallery-portfolio-section .gallery-tile--small-portrait .gallery-tile-figure img,
+  .gallery-portfolio-section .gallery-tile--medium-portrait .gallery-tile-figure img {
+  aspect-ratio: 4 / 3 !important;
+  height: auto !important;
+  min-height: unset !important;
+}
+
+.gallery-portfolio-section .gallery-tile--wide-landscape .gallery-tile-figure img {
+  aspect-ratio: 16 / 9 !important;
+  height: auto !important;
+}
+
+.gallery-portfolio-section .gallery-tile--small-square .gallery-tile-figure img,
+  .gallery-portfolio-section .gallery-tile--medium-square .gallery-tile-figure img {
+  aspect-ratio: 4 / 3 !important;
+  height: auto !important;
+}
+
+.gallery-portfolio-section .gallery-tile--small-landscape .gallery-tile-figure img,
+  .gallery-portfolio-section .gallery-tile--medium-landscape .gallery-tile-figure img {
+  aspect-ratio: 16 / 9 !important;
+  height: auto !important;
+}
+
+.gallery-portfolio-section .gallery-portfolio-cta {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 12px !important;
+  align-items: stretch !important;
+}
+
+.gallery-portfolio-section .gallery-cta-btn,
+  .gallery-portfolio-section .gallery-cta-btn-ghost {
+  text-align: center !important;
+  width: 100% !important;
+  display: block !important;
+}
+}
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {
