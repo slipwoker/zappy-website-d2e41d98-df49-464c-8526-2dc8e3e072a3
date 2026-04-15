@@ -243,7 +243,7 @@
     <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512x512.png">
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
@@ -323,10 +323,10 @@
       <div class="search-wrapper">
         <input type="text" id="mobile-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
         <button class="search-submit" id="mobile-search-submit" title="חיפוש">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
         </button>
         <button class="close-search" id="close-mobile-search">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
         </button>
       </div>
       <div class="search-results" id="mobile-search-results"></div>
@@ -342,7 +342,7 @@
 
     <nav class="zappy-catalog-menu rtl" id="zappy-catalog-menu" dir="rtl" style="display:none">
       <div class="catalog-menu-container">
-        <a href="/products" class="catalog-menu-item catalog-menu-all">כל המוצרים</a>
+        <a href="/products" class="catalog-menu-item catalog-menu-all">חנות</a>
         <div class="catalog-menu-categories" id="zappy-category-links">
           <!-- Categories will be loaded dynamically -->
         </div>
@@ -356,8 +356,8 @@
             <div class="account-not-logged-in" id="account-not-logged-in">
               <div class="account-icon">
                 <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-                  <circle cx="12" cy="7" r="4"/>
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
                 </svg>
               </div>
               <h1>לא מחובר</h1>
@@ -433,7 +433,7 @@
                 </div>
                 <div class="favorites-empty" id="favorites-empty" style="display: none;">
                   <p>אין עדיין מוצרים מועדפים</p>
-                  <a href="/products" class="btn btn-primary btn-sm">גלו את כל המוצרים שלנו</a>
+                  <a href="/products" class="btn btn-primary btn-sm">חנות</a>
                 </div>
                 <div class="favorites-grid" id="favorites-grid" style="display: none;"></div>
               </div>
@@ -447,7 +447,7 @@
                 </div>
                 <div class="orders-empty" id="orders-empty" style="display: none;">
                   <p>אין עדיין הזמנות</p>
-                  <a href="/products" class="btn btn-primary">להמשך קניות</a>
+                  <a href="/products" class="btn btn-primary">חנות</a>
                 </div>
                 <div class="orders-list" id="orders-list" style="display: none;"></div>
               </div>
@@ -460,7 +460,7 @@
           <div class="address-modal">
             <div class="address-modal-header">
               <h3 id="address-modal-title">הוסף כתובת</h3>
-              <button class="address-modal-close" id="address-modal-close">&times;</button>
+              <button class="address-modal-close" id="address-modal-close">&amp;times;</button>
             </div>
             <div class="address-modal-body">
               <input type="hidden" id="address-edit-id">
@@ -474,7 +474,7 @@
               </div>
               <div class="form-group">
                 <label for="address-street">רחוב ומספר</label>
-                <input type="text" id="address-street" placeholder="רחוב ומספר" required>
+                <input type="text" id="address-street" placeholder="רחוב ומספר" required="">
               </div>
               <div class="form-group">
                 <label for="address-apartment">דירה, קומה, כניסה</label>
@@ -482,7 +482,7 @@
               </div>
               <div class="form-group">
                 <label for="address-city">עיר</label>
-                <input type="text" id="address-city" placeholder="עיר" required>
+                <input type="text" id="address-city" placeholder="עיר" required="">
               </div>
               <div class="form-group">
                 <label for="address-zip">מיקוד</label>
@@ -510,7 +510,7 @@
       <!-- Column 1: Company Info -->
       <div class="footer-col footer-brand">
         <a href="/" class="footer-logo-link">
-          <img src="/assets/nataly-visberg-art-studio-logo.webp" alt="Nataly Visberg Art Studio" class="logo" />
+          <img src="/assets/nataly-visberg-art-studio-logo.webp" alt="Nataly Visberg Art Studio" class="logo">
         </a>
         <p class="footer-tagline">אמנות. עיצוב פנים. יצירה.<br>סטודיו לאמנות ועיצוב ייחודי.</p>
         <div class="footer-social">
@@ -589,7 +589,7 @@
   <div class="cart-drawer-header">
     <h2>עגלת הקניות שלך</h2>
     <button type="button" class="cart-drawer-close" id="cart-drawer-close" aria-label="סגור">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
     </button>
   </div>
   <div class="cart-drawer-body" id="cart-drawer-items">
